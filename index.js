@@ -25,6 +25,8 @@ app.get('/multimidia', (request, response) => {
 app.get('/faleconosco', (request, response) => {
     response.render('faleconosco')
 })
+   
+
 // ------ SERVIDOR -----
 app.listen(port,(err) => {
     if(err){
@@ -33,3 +35,4 @@ app.listen(port,(err) => {
         console.log('Servidor funcionando Normalmente')
     }
 })
+
