@@ -1,0 +1,15 @@
+{
+  "name": "projeto_glass",
+  "version": "1.0.0",
+  "description": "Curso Guanabara HTML5 e CSS3",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hugo Carvalho",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^3.0.2",
+    "express": "^4.17.1"
+  }
+}
