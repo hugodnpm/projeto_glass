@@ -25,6 +25,9 @@ app.get('/multimidia', (request, response) => {
 app.get('/faleconosco', (request, response) => {
     response.render('faleconosco')
 })
+app.get('/google-glass', (request, response) => {
+    response.render('google-glass')
+})
    
 
 // ------ SERVIDOR -----

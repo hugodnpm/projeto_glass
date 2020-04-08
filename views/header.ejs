@@ -7,15 +7,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
     <link href="estilos.css" rel="stylesheet" type="text/css">
-    <script>
-                
-        function mudaFoto(foto){
-            document.getElementById('icone').src = foto;
-            }
-    </script>
+    <script src="funcoes.js"></script>
     
 </head>
-<body>
+<body onload="mudaPag()">
     <div id="interface">
         
         <header id="cabecalho">
@@ -25,16 +20,16 @@
         </hgroup>
         
 
-<img id="icone" src="/images/glass-oculos-preto-peq.png">
+<img id="icone" src="">
 
 <nav id="menu">
 <h1>Menu Principal</h1> 
 <ul>   
-<li onmouseover="mudaFoto('/images/home.png')" onmouseout="mudaFoto('/images/glass-oculos-preto-peq.png')"><a href="/" id="pag"> Home </a></li>
-<li onmouseover="mudaFoto('/images/especificacoes.png')" onmouseout="mudaFoto('/images/glass-oculos-preto-peq.png')"><a href="/especificacoes"> Especificações </a></li>
-<li onmouseover="mudaFoto('/images/fotos.png')" onmouseout="mudaFoto('/images/glass-oculos-preto-peq.png')"><a href="/fotos"> Fotos </a></li>
-<li onmouseover="mudaFoto('/images/multimidia.png')" onmouseout="mudaFoto('/images/glass-oculos-preto-peq.png')"><a href="/multimidia">Multimídia</a></li>
-<li onmouseover="mudaFoto('/images/contato.png')" onmouseout="mudaFoto('/images/glass-oculos-preto-peq.png')"><a href="/faleconosco"> Fale conosco</a></li>
+<li onmouseover="mudaFoto('/images/home.png')" onmouseout="mudaPag()"><a href="/" id="pag"> Home </a></li>
+<li onmouseover="mudaFoto('/images/especificacoes.png')" onmouseout="mudaPag()"><a href="/especificacoes"> Especificações </a></li>
+<li onmouseover="mudaFoto('/images/fotos.png')" onmouseout="mudaPag()"><a href="/fotos"> Fotos </a></li>
+<li onmouseover="mudaFoto('/images/multimidia.png')" onmouseout="mudaPag()"><a href="/multimidia">Multimídia</a></li>
+<li onmouseover="mudaFoto('/images/contato.png')" onmouseout="mudaPag()"><a href="/faleconosco"> Fale conosco</a></li>
 </ul>
 </nav>
 </header>
