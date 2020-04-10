@@ -1,14 +1,28 @@
 <%- include('header') %>
 
-Glass > Multimídia
-Sons e Vídeos
-por Gustavo Guanabara
-Atualizado em 01/Maio/2013
+<head>
+    <link rel="stylesheet" href="media.css">
+</head>
+<section id="corpo-full">
+    <article id="noticia-principal">
+        <header id="cabecalho-artigo">
+            <hgroup>    
+               <h3>Glass > Multimídia</h3>
+               <h1>Sons e Vídeos</h1>
+                <h2>por Gustavo Guanabara</h2>
+                <h3 class="direita"> Atualizado em 01/Maio/2013</h3>
+            </hgroup>
+        </header>
+        <div id="tv-radio">
+            <audio id="musica" src="/midia/2009-lovers-carvings-bibio.mp3" controls >
+
+            </audio>
+            <video id="filme" src="/midia/getting-started.mp4" controls poster="/images/video-mini03.jpg">
+
+            </video>
+        </div>
 
 
-Áudio e Vídeo
-
-[AQUI ENTRA UM VÍDEO]
-[AQUI ENTRA UM ÁUDIO]
-
+    </article>
+</section>
 <%- include('footer') %>
